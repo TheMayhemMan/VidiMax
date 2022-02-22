@@ -1,0 +1,32 @@
+body{
+  background-color: #303030;
+}
+img{
+  margin: -3cm;
+}
+button{
+  background-color: black;
+  color: white;
+  border-radius: 1cm;
+  border-color: black; 
+}
+#search{
+  background-color: grey;
+  color: white;
+  border-radius: 0.1cm;
+  border-color: grey;
+}
+#SearchBar{
+  ;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#ShowResultsFor{
+  background-color: #303030;
+  border: none;
+  resize: none;
+  user-select: none;
+  color: white;
+}
