@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>VidiMax</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="Search.js">
+      function SetQuery(){
+        var Search = document.getElementById("SearchBar");
+        Query = Query.value;
+      }
+    </script></a>
+  </head>
+  <body>
+    <img src="VidiMax.png" alt="VidiMax"></img>
+    <a href='Search.html'><button>Search🔎</button></a>
+    <a href='index.html'><button>Home🏠</button></a>
+    <br><br><br><br><br>
+    <input type="text" placeholder="Search" autofocus id="SearchBar">
+    <input type="submit" id="search" value="search" onclick="SetQuery(), GetQuery(), reload()">
+    <br> <br> <br>
+    <textarea id="ShowResultsFor"></textarea>
+    <br><br><br>
+    <div id="div">
+      <video src="Videos/" width="1080" height="720" controls id="Result2">
+      </video>
+    </div>
+  </body>
+</html
