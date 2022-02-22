@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>VidiMax</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="upload.py"></script></a>
+  </head>
+  <body>
+    <img src="VidiMax.png" alt="VidiMax"></img>
+    <a href='Search.html'><button>Search🔎</button></a>
+    <a href='index.html'><button>Home🏠</button></a>
+    <a href='upload.html'><button>Upload</button></a>
+    <br> <br> <br> <br>
+    
+</body>
+</html>
+
+<html>
+    <head> 
+        <script>
+            function setup() {
+                document.getElementById('buttonid').addEventListener('click', openDialog);
+                function openDialog() {
+                    document.getElementById('fileid').click();
+                }
+                
+        </script> 
+    </head>
+    <body onload="setup()">
+      <!--we need a server side script file to reference -->
+        <form id='formid' method="POST" enctype="multipart/form-data" id="fileform"> 
+            <input id='fileid' type='file' name='filename' />
+            <input type='submit' value='Upload' onclick="upload(), uploader()" /> 
+        </form> 
+    </body> 
+</html>
